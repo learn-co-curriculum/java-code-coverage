@@ -305,11 +305,10 @@ which is not possible in most cases.
 
 ## Conclusion
 
-White-box testing focusing on testing the structure of a program.
-Code coverage is a white-box testing technique that measures
-
+White-box testing focuses on testing the structure of a program.
 White box testing techniques are based on code coverage,
 which measures how much source code is executed by the tests.
+
 This lesson demonstrated how to use IntelliJ's coverage runners for
 different types of coverage:
 
