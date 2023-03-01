@@ -90,7 +90,7 @@ execute the incorrect assignment statement at line `9`.
 ### IntelliJ Coverage Runner
 
 IntelliJ comes bundled with a code coverage runner that measures
-the percent of class, function (method), and line coverage.
+the percent of class, function (method), and line coverage. 
 
 Right-click on the `BuggyExample1Test` Junit class and select `Run BuggyExample1Test with Coverage`.
 
@@ -182,7 +182,7 @@ if the parameter is odd, but the method always returns `true` due to
 the incorrect initialization.
 
 The Junit test class `BuggyExample2Test` calls the method once, passing
-an even number `8` as a parameter.
+an even number `8` as a parameter.  
 
 ```java
 import org.junit.jupiter.api.Test;
@@ -201,7 +201,7 @@ class BuggyExample2Test {
 Right-click on the Junit class `BuggyExample2Test` and select `Run BuggyExample2Test with Coverage`.
 
 Notice we achieve 100% line coverage of the `BuggyExample2` class and the test
-passes.
+passes.  
 
 ![run coverage step 4](https://curriculum-content.s3.amazonaws.com/6676/coverage/run_coverage4.png)
 
@@ -251,8 +251,8 @@ Select "Jacoco" and then press the "OK" button.
 
 Right-click on the Junit class `BuggyExample2Test` and select `Run BuggyExample2Test with Coverage`.
 The coverage view now includes an additional metric for branch coverage.
-We can see only the test only coverage 50% of branches since the
-test never executes the branch where `x % 2 == 0` is false.
+We can see the test only covers 50% of the branches since the
+test never executes the branch where `x % 2 == 0` is `false`.
 
 ![branch coverage step 0](https://curriculum-content.s3.amazonaws.com/6676/coverage/branch_coverage0.png)
 
@@ -319,5 +319,5 @@ different types of coverage:
 
 ## Resources
 
-- [IntelliJ Code Coverage](https://www.jetbrains.com/help/idea/code-coverage.html.com)
+- [IntelliJ Code Coverage](https://www.jetbrains.com/help/idea/code-coverage.html.com)    
 - [Code Coverage](https://en.wikipedia.org/wiki/Code_coverage)
